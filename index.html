@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imalsha Hansinee - Portfolio</title>
+       <link rel="stylesheet" href="stylesheet_clean.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!-- Scroll progress indicator -->
+        <div class="scroll-progress"></div>
+        
+        <!-- Page transition overlay -->
+        <div class="page-transition"></div>
+        
+        <!-- Decorative geometric elements -->
+        <div class="geometric-bg">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+        
+        <header class="header">
+            <a href="#" class="logo">Imalsha.</a>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contacts">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contacts" class="hire-btn">Hire Me</a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hello I'm</h1>
+                <h1><span class="name-highlight">Imalsha Hansinee</span></h1>
+                <p>With a passion for technology and a drive for innovation, 
+                    I am a Full Stack Developer and IT undergraduate specializing in the MERN stack and UI/UX design. 
+                    I enjoy turning ideas into functional, user-focused solutions while exploring emerging technologies to create meaningful impact</p>
+                <div class="home-sci">
+                    <a href="https://github.com/Imalsha2" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/imalsha-hansinee" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:imalsharathnayaka2000@gmail.com" title="Email"><i class='bx bx-envelope'></i></a>
+                    <a href="https://www.facebook.com/imalsha.rathnayaka.127" target="_blank" title="Facebook"><i class='bx bxl-facebook'></i></a>
+                </div>
+                <div class="download-section">
+
+                    <button class="download-btn cv-download" onclick="downloadCVFile()">
+                        <i class='bx bx-file-pdf'></i> Download CV
+                    </button>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="images/my.jpg" alt="Imalsha Hansinee Profile Image">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-container">
+                <div class="about-header">
+                    <h2>About Me</h2>
+                    <p>Passionate IT undergraduate with a drive for innovation and impact-driven development</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-details">
+                        <div class="about-text">
+                            <h3>Impact-Driven Developer & Problem Solver</h3>
+                            <p>I am a dedicated third-year Information Technology undergraduate at the University of Moratuwa, passionate about creating innovative solutions that make a real difference. My journey in technology is fueled by curiosity and a desire to turn ideas into meaningful applications.</p>
+                            
+                            <p>With expertise in full-stack development using the MERN stack, embedded systems, and modern web technologies, I specialize in building scalable, user-centric software solutions. My approach combines strong technical skills with creative problem-solving to deliver impactful results.</p>
+                            
+                            <p>I thrive in collaborative environments where continuous learning and innovation drive success. Whether developing embedded systems, building web applications, or optimizing performance, I bring enthusiasm and attention to detail to every project.</p>
+                        </div>
+                        
+                        <div class="personal-info">
+                            <h4>Personal Details</h4>
+                            <div class="info-item">
+                                <span class="info-label"><i class='bx bx-user'></i> Name</span>
+                                <span class="info-value">Imalsha Hansinee</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class='bx bx-book'></i> Education</span>
+                                <span class="info-value">BSc (Hons) IT - UOM</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class='bx bx-map'></i> Location</span>
+                                <span class="info-value">Matara, Sri Lanka</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class='bx bx-code-alt'></i> Specialization</span>
+                                <span class="info-value">Full-Stack & Embedded Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="skills-container">
+                <div class="section-header">
+                    <h2>Skills</h2>
+                    <p>Explore my technical expertise and professional capabilities across various domains.</p>
+                </div>
+                
+                <div class="skills-showcase">
+                    <div class="skill-category">
+                        <h5><i class='bx bx-code-alt'></i> Programming Languages</h5>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon java">
+                                    <i class='bx bxl-java'></i>
+                                </div>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon c">
+                                    <i class='bx bx-code'></i>
+                                </div>
+                                <span>C</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon python">
+                                    <i class='bx bxl-python'></i>
+                                </div>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon js">
+                                    <i class='bx bxl-javascript'></i>
+                                </div>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon html">
+                                    <i class='bx bxl-html5'></i>
+                                </div>
+                                <span>HTML</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon css">
+                                    <i class='bx bxl-css3'></i>
+                                </div>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h5><i class='bx bx-world'></i> Web Development</h5>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon react">
+                                    <i class='bx bxl-react'></i>
+                                </div>
+                                <span>React.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon node">
+                                    <i class='bx bxl-nodejs'></i>
+                                </div>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon express">
+                                    <i class='bx bx-server'></i>
+                                </div>
+                                <span>Express.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h5><i class='bx bx-data'></i> Database</h5>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon mysql">
+                                    <i class='bx bx-data'></i>
+                                </div>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon mongo">
+                                    <i class='bx bxl-mongodb'></i>
+                                </div>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education" id="education">
+            <div class="education-container">
+                <div class="section-header">
+                    <h2>Education</h2>
+                    <p>My academic journey and educational achievements that shaped my career path.</p>
+                </div>
+                
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022-2027</div>
+                        <div class="timeline-content">
+                            <h4>BSc (Hons) in Information Technology</h4>
+                            <p class="institution">University of Moratuwa</p>
+                            <p class="description">Currently pursuing a Bachelor's degree in Information Technology with focus on software development, embedded systems, and data structures. Maintaining excellent academic performance while actively participating in technology-related projects and competitions.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021</div>
+                        <div class="timeline-content">
+                            <h4>GCE Advanced Level</h4>
+                            <p class="institution">Physical Science Stream</p>
+                            <p class="description">Completed Advanced Level examination with excellent results in Physics, Chemistry, and Combined Mathematics. This foundation in science and mathematics has been crucial for my understanding of complex technological concepts.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2017</div>
+                        <div class="timeline-content">
+                            <h4>GCE Ordinary Level</h4>
+                            <p class="institution">General Education</p>
+                            <p class="description">Successfully completed Ordinary Level examination with excellent results in Mathematics and Science subjects. Developed strong analytical and problem-solving skills that continue to benefit my academic and professional pursuits.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="projects-container">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <p>A selection of projects that showcase my skills in full-stack development, problem-solving, and building real-world applications. Each project reflects my commitment to clean code, user-centered design, and practical solutions.</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/portal.webp" alt="Partner Portal Website" class="project-preview-image">
+                            <div class="project-category">
+                                <span class="category-tag healthcare">Full-Stack Web</span>
+                                <span class="project-date">2024 - 2025</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Partner Portal Website</h3>
+                            <p class="project-subtitle">Second Year Software Project</p>
+                            <p>Developed a secure, scalable web portal to streamline partner and customer interactions. Key features include project and ticket management, role-based access, AWS-integrated document handling, and real-time dashboards. Contributed to core modules like authentication, dashboard, and user management under Agile workflow.</p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">AWS S3</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="project-link demo">Live Demo</a>
+                                <a href="https://github.com/Imalsha2" class="project-link github" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-category">
+                                <span class="category-tag fullstack">Full-Stack Web</span>
+                                <span class="project-date">May – July 2025</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Full-Stack User Management System</h3>
+                            <p class="project-subtitle">Web Development Project</p>
+                            <p>Built a responsive user management app with user authentication, role-based access (admin/user), and full CRUD operations using MongoDB, Express.js, React, and Node.js. Deployed frontend on Vercel and backend on Railway, with a clean UI and intuitive UX design.</p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">JWT</span>
+                                <span class="tech-tag">bcrypt</span>
+                                <span class="tech-more">+3 more</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="project-link demo">Live Demo</a>
+                                <a href="https://github.com/Imalsha2" class="project-link github" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/image.png" alt="Coffee Dose Project" class="project-preview-image">
+                            <div class="project-category">
+                                <span class="category-tag web">Web Development</span>
+                                <span class="project-date">June – July 2025</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Coffee Dose - Modern Coffee Shop</h3>
+                            <p class="project-subtitle">Individual Frontend Project</p>
+                            <p>Built a fully responsive, interactive website for a coffee shop with features like a dynamic menu, filterable gallery, and multi-step reservation system integrated with WhatsApp. Optimized for both desktop and mobile users with modern UI/UX.</p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="http://coffeedose-kandy.me/" class="project-link demo" target="_blank">Live Demo</a>
+                                <a href="https://github.com/Imalsha2" class="project-link github" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Coin.webp" alt="Smart Coin Sorter Project" class="project-preview-image">
+                            <div class="project-category">
+                                <span class="category-tag hardware">Hardware</span>
+                                <span class="project-date">Sep 2023 – April 2024</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Smart Coin Sorter Machine</h3>
+                            <p class="project-subtitle">First-Year Hardware Group Project</p>
+                            <p>Designed and built an automated coin sorting machine using Arduino and sensors. The system accurately identifies and sorts different coin denominations with real-time feedback. Applied fundamentals of electronics, mechanical design, and embedded programming.</p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">Sensors</span>
+                                <span class="tech-tag">Electronics</span>
+                                <span class="tech-tag">Mechanical Design</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7359538901117456385/" class="project-link demo" target="_blank">View Details</a>
+                                <a href="https://github.com/Imalsha2" class="project-link github" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-all-projects">
+                    <a href="https://github.com/Imalsha2?tab=repositories" target="_blank" class="view-all-btn">
+                        View All Projects <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacts Section -->
+        <section class="contacts" id="contacts">
+            <div class="contacts-container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <p>I'm always interested in new opportunities and exciting projects. Let's connect!</p>
+                </div>
+                
+                <div class="contacts-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class='bx bx-phone'></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+94769264200">+94 76 926 4200</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class='bx bx-envelope'></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:imalsharathnayaka2000@gmail.com">imalsharathnayaka2000@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class='bx bx-location-plus'></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Matara, Sri Lanka</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h4>Follow Me</h4>
+                            <div class="social-icons">
+                                <a href="https://github.com/Imalsha2" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+                                <a href="https://www.linkedin.com/in/imalsha-hansinee" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                                <a href="https://www.facebook.com/imalsha.rathnayaka.127" target="_blank" title="Facebook"><i class='bx bxl-facebook'></i></a>
+                                <a href="https://wa.me/94769264200" target="_blank" title="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Copyright © 2025 Imalsha Hansinee</p>
+        </footer>
+
+        <!-- Back to top button -->
+        <button class="back-to-top" onclick="scrollToTop()" title="Back to Top" aria-label="Back to Top">
+            <i class='bx bx-up-arrow-alt'></i>
+        </button>
+
+        <script src="main.js"></script>
+    </body>
+</html>
