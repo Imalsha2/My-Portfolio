@@ -19,6 +19,7 @@
         ]
       }
     ],
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "meta-viewport": "off"
   }
 }
